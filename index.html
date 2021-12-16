@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Chess3D</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="libs/three.js"></script>
+	<script type="text/javascript" src="libs/ThreeBSP.js"></script>
+	<script type="text/javascript" src="libs/Octree.js"></script>
+	<script type="text/javascript" src="libs/Tween.js"></script>
+	<script type="text/javascript" src="libs/MTLLoader.js"></script>
+	<script type="text/javascript" src="libs/OBJLoader.js"></script>
+	<script type="text/javascript" src="libs/jquery.js"></script>
+	<script type="text/javascript" src="libs/dat.gui.js"></script>
+	<script type="text/javascript" src="libs/TrackballControls.js"></script>
+	<script type="text/javascript" src="src/Teams.js"></script>
+	<script type="text/javascript" src="src/GameState.js"></script>
+	<script type="text/javascript" src="src/assetsLoader.js"></script>
+	<script type="text/javascript" src="src/Piece.js"></script>
+	<script type="text/javascript" src="src/Pawn.js"></script>
+	<script type="text/javascript" src="src/Rook.js"></script>
+	<script type="text/javascript" src="src/Knight.js"></script>
+	<script type="text/javascript" src="src/Bishop.js"></script>
+	<script type="text/javascript" src="src/Queen.js"></script>
+	<script type="text/javascript" src="src/King.js"></script>
+	<script type="text/javascript" src="src/Section.js"></script>
+	<script type="text/javascript" src="src/Tableboard.js"></script>
+	<script type="text/javascript" src="src/GameMode.js"></script>
+	<script type="text/javascript" src="src/Scene.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+	<!-- Div which will hold the Output -->
+	<div id="WebGL-output">
+	</div>
+
+	<div id="messages"></div>
+
+	<button id="newMatchButton" class="button">New Match</button>
+
+	<div id="transformPawn">
+		<button id="queenOption" class="transformOptions">Queen</button>
+		<button id="rookOption" class="transformOptions">Rook</button>
+		<button id="knightOption" class="transformOptions">Knight</button>
+		<button id="bishopOption" class="transformOptions">Bishop</button>
+	</div>
+</body>
+
+</html>
